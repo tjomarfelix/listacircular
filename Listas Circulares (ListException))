@@ -1,0 +1,10 @@
+package linkedlist;
+
+public class ListasCirculares extends RuntimeException{
+    public ListasCirculares(){
+        super();
+    }
+    public ListasCirculares(String msg){
+        super(msg);
+    }
+}
